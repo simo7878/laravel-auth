@@ -14,6 +14,11 @@ class PostsTableSeeder extends Seeder
      */
     public function run(Faker $faker)
     {
+      for ($i=0; $i < 10; $i++) {
+        $newPost = new Post;
+        $newPost->user_id = 1;
+        $newPost->
 
+      }
     }
 }
